@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoja de vida - Roberto Jiménez</title>
+    <link rel="stylesheet" href="/assets/styles/styles.css" />
+  </head>
+  <body>
+    <header id="navbar">
+      <a href="#" class="header__logo">
+        <img src="assets/img/Icono.png" alt="Hoja de vida" />
+        <div class="header__title">
+          <h2><mark>Roberto Jiménez</mark></h2>
+          <h4>Hoja de vida</h4>
+        </div>
+        <div class="header__apodo">
+          <h2><mark>RevayDev</mark></h2>
+          <h4>Haz hover</h4>
+        </div>
+      </a>
+      <nav>
+        <ul class="nav_items-nav">
+          <a href="#Perfil" class="items-nav__item"> <li>Perfil</li> </a>
+          <a href="#Proyectos" class="items-nav__item"> <li>Proyectos</li> </a>
+          <a href="#Contacto" class="items-nav__item" id="contacto"> <li>Contacto</li> </a>
+        </ul>
+      </nav>
+      <div class="nav__menu" onclick="toggleMenu()">
+        <span class="menu__barra"></span>
+        <span class="menu__barra"></span>
+        <span class="menu__barra"></span>
+      </div>
+    </header>
+
+    <main class="contenido">
+      <section id="Perfil">
+      <article>
+        <h1 class="contenido__title">Perfil Dev</h1>
+        <div class="contacto__description">
+          <img src="assets/img/RevayDev.gif" alt="Logo de RevayDev" />
+          <p>
+            Mi nombre es <mark>Roberto Jiménez</mark>, también conocido como
+            <mark>RevayDev</mark>. Soy un joven de <mark>17 años</mark> y de nacionalidad
+            <mark>colombiana</mark>. Poseo una gran capacidad para trabajar en equipo o de manera independiente. <br /><br />
+            Me gusta la <mark>programación</mark> y el <mark>diseño gráfico</mark>, además de escribir
+            historias y ayudar a las personas a conocer este mundo de innovación
+            y mejorar como profesionales. Por eso, tengo un canal de <mark>YouTube</mark>.
+          </p>
+        </div>
+      </article>
+
+      <article>
+        <h1 class="contenido__title">Certificados</h1>
+        <div class="contacto__description contacto__Certificado">
+          <img src="assets/img/Certificado.png" alt="Logo de RevayDev" />
+          <div class="certificado_fantasma">
+            <h2>Aprendiendo</h2>
+            <p>Opteniendo certificados</p>
+          </div>
+        </div>
+      </article>
+      </section>
+
+
+      <div id="Proyectos">
+        <h1 class="title">Proyectos</h1>
+        <p>
+          Estos son algunos de mis proyectos más apreciados. Me han ayudado
+          a entender mejor los <mark>lenguajes de programación</mark> y el buen manejo de
+          recursos.
+        </p>
+      </div>
+
+      <section class="proyectos">
+        <article class="proyecto__card">
+          <img class="card__img" src="assets/img/proyects/Revaydev.png" alt="Proyecto Web RevayDev" />
+          <div class="card__interno">
+            <h2 class="card__title">Web <mark>RevayDev</mark></h2>
+            <p class="card__description">
+              Sitio oficial de <mark>Roberto Jiménez</mark> (<mark>RevayDev</mark>), un YouTuber de programación que mejora cada día con las mejores prácticas y tecnologías.
+            </p>
+            <table>
+              <tr><th>Tecnologías</th><th>Uso</th></tr>
+              <tr><td><mark>React</mark></td><td>Desarrollo web dinámico</td></tr>
+              <tr><td><mark>Node.js</mark></td><td>Backend en JavaScript</td></tr>
+              <tr><td><mark>Sass</mark></td><td>Framework de CSS</td></tr>
+            </table>
+            <div class="card__buttons">
+              <a href="https://www.youtube.com/channel/UCE7NWSOlaZ4IOXfIuBip_kQ" target="_blank"> <button class="buttons__prime">Canal</button> </a>
+              <a href="https://revaydev.vercel.app/" target="_blank"> <button>Visitar</button> </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="proyecto__card">
+          <img class="card__img" src="assets/img/proyects/BotPy.png" alt="Proyecto de Discord.Py" />
+          <div class="card__interno">
+            <h2 class="card__title">Discord.py</h2>
+            <p class="card__description">
+              Código en <mark>Python</mark> para bots de Discord. Funcional y compatible con base de datos <mark>NoSQL</mark>, creado para uso personal.
+            </p>
+            <table>
+              <tr><th>Tecnologías</th><th>Uso</th></tr>
+              <tr><td><mark>Python</mark></td><td>Automatización de tareas</td></tr>
+              <tr><td><mark>MongoDB</mark></td><td>Base de datos NoSQL</td></tr>
+              <tr><td><mark>Discord API</mark></td><td>Interacción con Discord</td></tr>
+            </table>
+            <div class="card__buttons">
+              <a href="https://www.youtube.com/watch?v=U7Rbu-9tiC4" target="_blank"> <button class="buttons__prime">Tutorial</button> </a>
+              <a href="https://replit.com/@revayDev/Discordpy" target="_blank"> <button>Código</button> </a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <div id="Contacto">
+        <h1 class="title">Contacto</h1>
+        <p>
+          ¿Quieres hacer un proyecto conmigo? ¡Genial! Rellena el formulario para mantenernos en contacto.
+        </p>
+      </div>
+
+      <section>
+        <form action="#">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <label for="email">Correo</label>
+          <input type="email" id="email" name="email" required />
+          <label for="mensaje">Mensaje</label>
+          <textarea name="mensaje" id="mensaje" rows="4"></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 - Hoja de vida de <mark>Roberto Jiménez</mark> | Creado con: <mark>HTML</mark>, <mark>CSS</mark> y <mark>JavaScript</mark></p>
+    </footer>
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
