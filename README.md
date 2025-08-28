@@ -32,23 +32,11 @@ Me gusta programar, crear **programas**, **jueguitos** simples y experimentar co
 - **Stack:** HTML · CSS · JavaScript · Java · Discord.js  
 - **Intereses:** Desarrollo web, automatización, videojuegos simples
 
----
-
-## 🧰 Habilidades
-- **Lenguajes:** JavaScript, Java  
-- **Herramientas:** Git/GitHub, VS Code / IntelliJ  
-- **Otros:** Diseño de UI simple, documentación técnica
-
----
-
-## 🗂️ Proyecto destacado
-Este repositorio fue creado como **proyecto académico / parcial de desarrollo web**.  
-Contiene una página de **hoja de vida online** que puedes visitar aquí:
 
 🌐 [Ver la página](https://revaydev.github.io/hoja-de-vida/)
 
 > [!NOTE]
-> No está enfocado en Java, sino en **desarrollo web básico (HTML, CSS, JS)**.
+> Este repo fue creado para un parcial de desarroollo web para la univercidad, asi quetiene algunos erores.
 
 ---
 
